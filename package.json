@@ -14,8 +14,7 @@
     "url": "git+https://github.com/cool-webpro17/twig-function.git"
   },
   "license": "MIT",
-  "main": "dist/index.js",
-  "jsnext:main": "src/index.js",
+  "main": "index.js",
   "author": "Heng Sokom",
   "peerDependencies": {
     "react": "*"
