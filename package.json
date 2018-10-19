@@ -1,34 +1,38 @@
 {
-  "name": "twig-loader",
-  "version": "0.5.0",
-  "description": "Webpack loader for compiling twig.js templates",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -R spec"
+  "name": "twig-function",
+  "version": "0.5.1",
+  "description": "Twig Function for twig templates",
+  "homepage": "https://github.com/cool-webpro17/twig-function/#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/cool-webpro17/twig-function/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cool-webpro17/twig-loader.git"
+    "url": "git+https://github.com/cool-webpro17/twig-function.git"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "prepare": "node ../../scripts/prepare.js"
   },
   "author": "Heng Sokom",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cool-webpro17/twig-loader/issues"
-  },
-  "homepage": "https://github.com/cool-webpro17/twig-loader/#readme",
   "peerDependencies": {
-    "twig": "~1.10.5"
+    "react": "*"
   },
   "dependencies": {
-    "hasha": "^3.0.0",
-    "loader-utils": "^1.1.0",
-    "map-cache": "^0.2.2",
-    "schema-utils": "^0.4.5",
-    "twig": "^1.12.0",
-    "underscore": "^1.9.1"
+    "@emotion/styled": "^0.10.6",
+    "@storybook/addons": "4.0.0-rc.1",
+    "marked": "^0.5.1",
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "should": "^13.2.1"
+    "@emotion/styled": "^0.10.6",
+    "@storybook/addons": "4.0.0-rc.1",
+    "marked": "^0.5.1",
+    "prop-types": "^15.6.2"
   }
 }
